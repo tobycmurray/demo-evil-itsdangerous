@@ -1,26 +1,12 @@
 [project]
-name = "itsdangerous"
-description = "Safely pass data to untrusted environments and back."
+name = "demo-evil-itsdangerous"
+description = "An evil version of the module to safely pass trusted data to untrusted environments and back, created to demo software supply chain vulnerabilities."
 readme = "README.rst"
 license = {file = "LICENSE.rst"}
-maintainers = [{name = "Pallets", email = "contact@palletsprojects.com"}]
-classifiers = [
-    "Development Status :: 5 - Production/Stable",
-    "Intended Audience :: Developers",
-    "License :: OSI Approved :: BSD License",
-    "Operating System :: OS Independent",
-    "Programming Language :: Python",
-]
+maintainers = [{name = "Toby Murray", email = "toby.murray@unimelb.edu.au"}]
 requires-python = ">=3.7"
 dynamic = ["version"]
 
-[project.urls]
-Donate = "https://palletsprojects.com/donate"
-Documentation = "https://itsdangerous.palletsprojects.com/"
-Changes = "https://itsdangerous.palletsprojects.com/changes/"
-"Source Code" = "https://github.com/pallets/itsdangerous/"
-"Issue Tracker" = "https://github.com/pallets/itsdangerous/issues/"
-Chat = "https://discord.gg/pallets"
 
 [build-system]
 requires = ["flit_core<4"]
